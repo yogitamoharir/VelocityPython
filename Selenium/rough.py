@@ -142,4 +142,3 @@ if True:
     driver.find_element(By.XPATH,"//a[text()='18']").click()
 
 
-time.sleep(10)
