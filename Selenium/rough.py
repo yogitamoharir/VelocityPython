@@ -122,23 +122,23 @@ print("----------select radio button_------")
 
 print("---------Calender 1------")
 
-import time
-from selenium import webdriver
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common.by import By
-
-driver=webdriver.Chrome()
-driver.maximize_window()
-driver.get("https://testautomationpractice.blogspot.com/")
-time.sleep(2)
-
-driver.find_element(By.XPATH,"//input[@id='datepicker']").click()
-
-
-driver.find_element(By.XPATH,"//span[@class='ui-icon ui-icon-circle-triangle-e']").click()
-if True:
-    driver.find_element(By.XPATH,"//span[text()='June']").click()
-    driver.find_element(By.XPATH,"//span[text()='2025']").click()
-    driver.find_element(By.XPATH,"//a[text()='18']").click()
-
-print("hello")
+# import time
+# from selenium import webdriver
+# from selenium.webdriver import ActionChains
+# from selenium.webdriver.common.by import By
+#
+# driver=webdriver.Chrome()
+# driver.maximize_window()
+# driver.get("https://testautomationpractice.blogspot.com/")
+# time.sleep(2)
+#
+# driver.find_element(By.XPATH,"//input[@id='datepicker']").click()
+#
+#
+# driver.find_element(By.XPATH,"//span[@class='ui-icon ui-icon-circle-triangle-e']").click()
+# if True:
+#     driver.find_element(By.XPATH,"//span[text()='June']").click()
+#     driver.find_element(By.XPATH,"//span[text()='2025']").click()
+#     driver.find_element(By.XPATH,"//a[text()='18']").click()
+#
+# print("hello")
